@@ -1,11 +1,11 @@
 {
-  "name": "@cityjs/vite-app",
+  "name": "rsbuild_app",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "dev": "vite",
+    "build": "rsbuild build",
+    "dev": "rsbuild dev",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
@@ -13,10 +13,10 @@
     "react-dom": "^19.2.5"
   },
   "devDependencies": {
+    "@rsbuild/core": "^1.7.5",
+    "@rsbuild/plugin-react": "^1.4.6",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.1",
-    "typescript": "^6.0.2",
-    "vite": "^8.0.8"
+    "typescript": "^6.0.2"
   }
 }

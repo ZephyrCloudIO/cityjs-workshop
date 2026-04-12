@@ -31,7 +31,7 @@ module.exports = {
     }),
   ],
   devServer: {
-    port: 5175,
+    port: 3001,
     historyApiFallback: true,
     hot: true,
     open: false,

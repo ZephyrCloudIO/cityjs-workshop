@@ -4,7 +4,7 @@ import { pluginReact } from "@rsbuild/plugin-react";
 export default defineConfig({
   plugins: [pluginReact()],
   server: {
-    port: 5174,
+    port: 3000,
   },
   html: {
     title: "Rsbuild App",

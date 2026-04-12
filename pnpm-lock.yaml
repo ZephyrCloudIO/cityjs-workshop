@@ -12,7 +12,7 @@ importers:
         specifier: ^2.9.6
         version: 2.9.6
 
-  apps/rsbuild-app:
+  apps/rsbuild_app:
     dependencies:
       react:
         specifier: ^19.2.5
@@ -37,7 +37,7 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2
 
-  apps/vite-app:
+  apps/vite_app:
     dependencies:
       react:
         specifier: ^19.2.5
@@ -62,7 +62,7 @@ importers:
         specifier: ^8.0.8
         version: 8.0.8(@types/node@25.6.0)(esbuild@0.27.7)(jiti@2.6.1)(terser@5.46.1)
 
-  apps/webpack-app:
+  apps/webpack_app:
     dependencies:
       react:
         specifier: ^19.2.5

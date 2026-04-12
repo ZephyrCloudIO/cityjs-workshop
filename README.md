@@ -2,9 +2,9 @@
 
 Turbo monorepo; three frontend apps:
 
-- `apps/vite-app`
-- `apps/rsbuild-app`
-- `apps/webpack-app`
+- `apps/vite_app`
+- `apps/rsbuild_app`
+- `apps/webpack_app`
 
 ## Commands
 
