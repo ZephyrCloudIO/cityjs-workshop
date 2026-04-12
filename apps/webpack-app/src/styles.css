@@ -1,0 +1,40 @@
+:root {
+  color: #f8f0e5;
+  background:
+    radial-gradient(circle at 80% 10%, rgba(255, 164, 76, 0.28), transparent 30%),
+    linear-gradient(135deg, #140d07 0%, #23160a 100%);
+  font-family: "Satoshi", "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  display: grid;
+  gap: 1rem;
+  place-content: center;
+  min-height: 100vh;
+  padding: 3rem;
+}
+
+.eyebrow {
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #ffb266;
+}
+
+h1,
+p {
+  margin: 0;
+  max-width: 32rem;
+}
