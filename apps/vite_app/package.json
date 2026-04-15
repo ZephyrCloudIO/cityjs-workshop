@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "description": "Workshop placeholder for the airport passenger services remote",
   "scripts": {
     "build": "vite build",
     "dev": "vite",
