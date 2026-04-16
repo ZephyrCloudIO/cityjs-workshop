@@ -1,13 +1,24 @@
 {
   "name": "cityjs-workshop",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "Turbo monorepo with Vite, Rsbuild, and Webpack apps",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "typecheck": "turbo run typecheck"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "turbo",
+    "monorepo",
+    "vite",
+    "rsbuild",
+    "webpack"
+  ],
+  "author": "Nestor Lopez",
   "license": "MIT",
-  "packageManager": "pnpm@10.26.1"
+  "packageManager": "pnpm@10.26.1",
+  "devDependencies": {
+    "turbo": "^2.9.6"
+  }
 }
